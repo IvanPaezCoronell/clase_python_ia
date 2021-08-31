@@ -59,7 +59,7 @@ print(c)
 raiz = math.sqrt(25)
 print(raiz)"""
 
-# Tipos de Datos
+# TIPOS DE DATOS
 
 # string str
 a = "Hola Mundo"
@@ -100,10 +100,35 @@ print(type(y))
 # CONCATENACIONES
 a = 'hola'
 b = 'mundo'
-c = a +' '+ b
+c = a + ' ' + b
 
 a = 'hola'
 b = a * 5
 
 
+# CAPTURAR POR PANTALLA
+nombre = input('Digite su nombre')
+print('Hola', nombre)
+
+
+# realizar un algoritmo que sume dos numeros e imprima su resultado
+a = float(input('Digite el primer numero: '))
+b = float(input('Digite el segundo numero: '))
+suma = a + b
+print("La suma es: ", suma)
+
+# realizar un algoritmo que lea un numero y lo eleve al cuadrado
+a = float(input('Digite el numero que desee elevar al cuadrado'))
+b = a ** 2
+print(f'el resultado del numero {a}  elevado al cuadrado es: {b}')
+
+# realizar un algoritmo que tome el valor de un pproducto, le aplique el 20%
+# de descuento, imprima el valor del producto inicial, el valor con descuento
+# y el valor ahorrado
+a = float(input('Digite el valor del producto $'))
+descuento = a * 0.2
+final = a - descuento 
+print(f'el valor del producto es: ${a}')
+print(f'el valor final del producto es: ${final}')
+print(f'el valor ahorrado es: ${descuento}')
 
