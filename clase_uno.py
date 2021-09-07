@@ -127,8 +127,7 @@ print(f'el resultado del numero {a}  elevado al cuadrado es: {b}')
 # y el valor ahorrado
 a = float(input('Digite el valor del producto $'))
 descuento = a * 0.2
-final = a - descuento 
+final = a - descuento
 print(f'el valor del producto es: ${a}')
 print(f'el valor final del producto es: ${final}')
 print(f'el valor ahorrado es: ${descuento}')
-
